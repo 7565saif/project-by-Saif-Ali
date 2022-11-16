@@ -1,0 +1,165 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    
+}
+.image {
+    width: 100px;
+    height: 40px;
+    
+}
+nav > ul li{
+    display: inline-block;
+    padding: 0px 20px;
+    list-style: none;
+    color: grey;    
+}
+nav > ul li a:hover {
+    color: black;
+     
+}
+ nav > ul li a::after{
+    content: "";
+    background-color: #8071D0;
+    height: 3px;
+    width: 0;
+    margin: auto;
+    display: block;
+
+}
+nav > ul li a:hover:after{
+    width: 100%;
+}
+ header > button {
+    background-color:  #FFD8DB;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    color:  #A389CC;
+    
+    text-align: center;
+
+ }
+ 
+
+button{
+    background-color:  #5243C0;
+    border: none;
+    padding: 15px 30px;
+    color: #ffffff;
+    border-radius: 15px;
+    margin-bottom: 10%;
+    margin-top: -55;
+ }
+#heading{
+    font-size: 50px;
+}
+p{
+    color: grey;
+ }
+ #arrow{
+    width: 15%;
+    height: 15%;
+  
+ }
+
+ .container div{
+    margin-top: 1px;
+    
+ }
+ 
+.card  {
+    background-color: gainsboro;
+    border-radius: 10PX;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+   
+   
+
+    
+}
+
+.card:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 4px 10px gray;
+ }
+
+
+
+
+#content{
+    margin-right: 32px;
+    font-weight: bold;
+    
+    
+    
+}
+#user-pink{
+    margin-right: 32px;
+}
+#checkbox{
+    margin-right: 10px;
+    
+}
+#date{
+    margin-right: 5px;
+}
+#capcule{
+    background-color: #FED7DA;
+    border-radius: 30px;
+    width: 8%;
+    height: 50%;
+    color: #FED7DA;
+}
+
+#capcule-1{
+    background-color:  #FD6534;
+    border-radius: 30px;
+    width: 8%;
+    height: 50%;
+    color:  #FD6534;
+}
+
+#capcule-2{
+    background-color: #9ED095    ;
+    border-radius: 30px;
+    width: 8%;
+    height: 50%;
+    color: #9ED095;
+}
+
+#capcule-3{
+    background-color:#FFE4A0;
+    border-radius: 30px;
+    width: 8%;
+    height: 50%;
+    color: #FFE4A0;
+}
+
+#checkbox:hover {
+    
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+
+
+
+.section{
+    display: flex;
+    margin-left: 15%;
+}
+#img{
+    width: 500px;
+    height: 500px;
+}
+.button{
+    display: flex;
+}
+
+
