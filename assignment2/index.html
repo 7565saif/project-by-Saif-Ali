@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>EdYoda| Free Onlin course</title>
+  </head>
+  <style>
+    body {
+      margin: 0;
+    }
+    .navbar {
+      background-color: #fff;
+      padding: 16px 78px;
+      box-shadow: 5px 5px 5px grey;
+    }
+
+    .logo {
+      width: 130px;
+      font-size: 32px;
+      color: #0084ff;
+    }
+    .Stories {
+      margin: 0;
+      font-weight: 500;
+      font: caption;
+      font-style: italic;
+      text-align: center;
+    }
+    .button {
+      float: right;
+      border-radius: 30px;
+      background-color: #0084ff;
+      border: 0;
+      color: #fff;
+      size: ;
+    }
+    .aboutblog {
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      font-weight: 500;
+      display: inline;
+    }
+    .blog {
+      text-align: right;
+      float: right;
+    }
+
+    /* CODE FOR POST */
+    #img-wrapper {
+        width: 100%;
+      display: flex;
+    }
+    .section-1{
+        width: 60%;
+        margin-right: 10px;
+    }
+    .section-1 img{
+        width: 100%;
+        height: 100%;
+
+    }
+    .section-2{
+        width: 40%;
+    }
+    .post-2 img{
+        width: 100%;
+    }
+    .post-1 img{
+        width: 100%;
+    }
+
+    .category {
+      margin-bottom: 20px;
+      text-size-adjust: 16px;
+      padding-top: 16px;
+    }
+
+    .heading {
+      text-decoration-color: #000;
+      font-weight: 600;
+      margin: 0;
+    }
+    .filter {
+      font-size: 14px;
+      font-weight: 600;
+      margin-left: 8px;
+    }
+    .img-category {
+      width: 20px;
+      cursor: pointer;
+    }
+
+    .box-category {
+      padding: 16px 14px;
+      padding-bottom: 2px;
+      padding-top: 2px;
+      width: auto;
+      color: #0084ff;
+      border-radius: 15px;
+      border: 1px solid #0084ff;
+      margin: 5px;
+      cursor: pointer;
+    }
+    .box-category:hover {
+      color: #fff;
+      background-color: #0084ff;
+    }
+
+    .filter-box {
+      padding: 10px;
+      margin-bottom: 30px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+
+    /* STYLING CARDS */
+
+    .item {
+      border-color: #0084ff;
+      width: 33.3%;
+      margin: 25px;
+      border-radius: 10px;
+      display: inline-block;
+      display: flexbox;
+      box-shadow: 2px 2px 2px grey;
+      border: 1px solid rgba(0, 168, 255, 0.3);
+      text-align: justify;
+      padding: 5px;
+    }
+    .image {
+      width: 100%;
+      height: 100%;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+    }
+    .image {
+      height: 176px;
+      width: 100%;
+    }
+    .title {
+      font-size: 18px;
+      text-align: left;
+      margin: 0;
+      font-weight: 600;
+    }
+    .description {
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 1.43;
+      color: rgba(0, 0, 0, 0.6);
+      margin: 4px 0;
+      padding: 10px 24px;
+    }
+    .Author {
+      padding-top: 4px;
+    }
+    .Author {
+      color: #0096ff;
+      font-size: 14px;
+      font-style: italic;
+      font-weight: 500;
+    }
+    .date {
+      color: rgba(0, 0, 0, 0.7);
+      font-size: 14px;
+      font-weight: 300;
+    }
+    /* FOOTER STYLING */
+    .footer-collumn {
+      background-color: #172146;
+      padding: 80px 16%;
+      display: flex;
+      font-weight: 200;
+    }
+
+    .head {
+      color: lightseagreen;
+      padding: 5px;
+      margin-right: 100px;
+      font-size: 20px;
+    }
+    .footer-content {
+      color: #fff;
+      font-size: 15px;
+    }
+
+    /* ICON */
+    .icon {
+      width: 15px;
+      padding-left: 10px;
+    }
+    .body {
+      padding-left: 100px;
+      padding-right: 100px;
+      padding-top: 2px;
+    }
+  </style>
+  <body>
+    <div class="navbar">
+      <a class="logo">EDYODA</a>
+      <a>
+        <button class="button">Go To Main <br />Website</button>
+        <a class="blog">
+          <p class="aboutblog">
+            EdYoda is free learning and knowledge <br />sharing platform for
+            techies
+          </p>
+        </a>
+      </a>
+      <div class="Stories">Stories</div>
+    </div>
+
+    <!-- code for Categories -->
+    <div class="body">
+      <div>
+        <h1 class="category">Trending Posts</h1>
+        <div id="img-wrapper">
+          <div class="section-1">
+            <img alt="Edyoda" src="https://edyoda.s3.amazonaws.com/media/blog-images/ace-soft-skills-small.jpg"/>
+          </div>
+
+          <div class="section-2">
+            <div class="post-2">
+              <img
+                src="https://edyoda.s3.amazonaws.com/media/blog-images/learn_cloud_computing.jpeg"
+              />
+            </div>
+            <div class="post-1">
+              <img
+                src="https://edyoda.s3.amazonaws.com/media/blog-images/aptitude-small.jpg"
+              />
+            </div>
+          </div>
+        </div>
+
+        <h1 class="heading">Latest Post</h1>
+        <div>
+          <a href="#"
+            ><img
+              class="img-category"
+              alt="category"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAMAAABHPGVmAAAAbFBMVEUAAAA1gME1gME1f8A1gME1gMExd7Q0f8AxeL
+            Yzfb00fr80f8Aze7oze7o1gMA0fr4zfLwzfb0zfb0yerg0fb00f8AzfLszfLwzfr40f780f8Azfb00f8A0f8AzfLwzfr81gME0fr4zfLs1gMEkRxAZAAAAI3RSTlMAHOP9f/oT1RAO
+            281OROfhFaSUSkCwnpmOcTfFim9YB/AmGRclE4kAAAF9SURBVGje7dfrboJAEAXgA7jLXRAExRu2vP87No1NJjYpexm3SZv5/vgD9QB7mCwQQggh/rI2YtCwUpUxw7mGhTZdWMoWZlHMC4kjmL0Xv3Al8zHhZCQTbOid159/fRwyWIlK+p2rQcPSvnBLoa+mJ1jrG7+bVdRwcLsvHpoeLuaLepxh4nAd9xvc5F1ityx0Juoyw5EeXZely2DAL/JOw8M+NafQ4TKCl7pxeED28FRtrctbw9uk1u4YHdhW8Jd39LislXcCRzZalEt1OVj0YF76MQPTyVjkQYOtprlvmO4cfbysoOnOc6UiG6Y7Q36kIn8v7xWvkh1+mPvqmIPBtIExb0385z5/ups3MM
+            +2b3ixi3nXy7eREAmREAmREAmRkPWQsw4Xkiz05hMqJEkoI0wIZTQVEC7k8VH0CGDztB5pDRKkXfTWHjJkOMGAX+Fdi0CowqMGCROiDpQRKkR1GcLZ0PtbODf1OUquOULKpzQ+Vwitj
+            TIIIYQQ/9wHYyfu5wm8dM0AAAAASUVORK5CYII="
+          /></a>
+          <h3 class="filter">Filter by Category</h3>
+        </div>
+
+        <div class="filter-box">
+          <span class="box-category">All</span>
+          <span class="box-category">Artificial Intelligence</span>
+          <span class="box-category">Cloud Computing</span>
+          <span class="box-category">DevOps</span>
+          <span class="box-category">Programming Language</span>
+          <span class="box-category">Mobile application Development</span>
+          <span class="box-category">Technology and tools</span>
+          <span class="box-category">Get job in a Tech Company</span>
+          <span class="box-category">Other</span>
+        </div>
+      </div>
+
+      <!-- CODE FOR CARDS -->
+      <div class="item">
+        <img
+          class="image"
+          alt="Mobile"
+          src="https://edyoda.s3.amazonaws.com/media/blog-images/7_reasons_to_learn_Python_u3lFION.jpg"
+        />
+        <h2 class="title">Fresh Graduate or IT professional...</h2>
+        <p class="date">
+          <a class="Author" style="text-decoration: none" href="#">Aman Ahmed</a
+          >| 05 JUL 2019
+        </p>
+        <p class="description">
+          if you are a fresh graduate - or new to IT - looking for the next job,
+          you need to read thi. The last couple of years zekeLabs gave...
+        </p>
+      </div>
+
+      <div class="item">
+        <a>
+          <img
+            class="image"
+            alt="Mobile"
+            src="https://edyoda.s3.amazonaws.com/media/blog-images/edyoda_WxvDSK1.jpg "
+          />
+          <h2 class="title">Intrducing you all to Edyoda-...</h2>
+          <p class="date">
+            <a class="Author" style="text-decoration: none" href="#"
+              >Aman Ahmed</a
+            >| 05 JUL 2019
+          </p>
+          <p class="description">
+            Really ecstatic and immensely proud to introduce you all to our
+            latest attempt of adding value and making an...
+          </p></a
+        >
+      </div>
+
+      <div class="item">
+        <img
+          class="image"
+          alt="Mobile"
+          src="https://edyoda.s3.amazonaws.com/media/blog-images/devops-edYoda-blog-small.jpg"
+        />
+        <h2 class="title">From identitiy crisis to the success...</h2>
+        <p class="date">
+          <a class="Author" style="text-decoration: none" href="#">Aman Ahmed</a
+          >| 05 JUL 2019
+        </p>
+        <p class="description">
+          DevOps is a paradigm shift in the way how software products are being
+          built in the modern day Information Technology (IT) organizations .
+          software products are being built in the modern day Information
+          Technology (IT) organizationsDevOps is a paradigm shift in the way how
+          software products are being built in the modern day Information
+          Technology (IT) organizations...
+        </p>
+      </div>
+
+      <div class="item">
+        <img
+          class="image"
+          alt="Mobile"
+          src="https://edyoda.s3.amazonaws.com/media/blog-images/Data_Scientist_1920_1280_DsZBGZu.jpg"
+        />
+        <h2 class="title">Typical day of Data Science - An insider story!</h2>
+        <p class="date">
+          <a class="Author" style="text-decoration: none" href="#"
+            >Saueav Ghosh</a
+          >| 05 JUL 2019
+        </p>
+        <p class="description">
+          Big Data and Data Science are the foundation of all the trends that
+          are emerging in the world today. To me Data Science can be
+          encapsulated in a simple statement, it helps organizations and
+          individuals to solve complex problems while minimizing human effort.
+          There are several different aspects to this, which we shall go into
+          later.
+        </p>
+      </div>
+
+      <div class="item">
+        <img
+          class="image"
+          alt="Mobile"
+          src="https://edyoda.s3.amazonaws.com/media/blog-images/edyoda_blog_aws_cloudday_17may2018_Bangalore_small_ByulIE.jpg"
+        />
+        <h2 class="title">Fresh Graduate or IT professional...</h2>
+        <p class="date">
+          <a class="Author" style="text-decoration: none" href="#"
+            >Kalyan Mahalingam</a
+          >| 05 JUL 2019
+        </p>
+        <p class="description">
+          I recently had the opportunity to attend the AWS Cloud Day event
+          organized by Amazon Web Services. The AWS Cloud Day brings together
+          the cloud computing community to connect, collaborate and learn about
+          AWS. Here, I have tried to share my learning and experience of the
+          event
+        </p>
+      </div>
+
+      <div class="item">
+        <img
+          class="image"
+          alt="Mobile"
+          src="https://edyoda.s3.amazonaws.com/media/blog-images/cloud-meetup-edyoda-small_b2EXhBe.jpg"
+        />
+        <h2 class="title">edYoda Meetup #01: A Date with cloud</h2>
+        <p class="date">
+          <a class="Author" style="text-decoration: none" href="#"
+            >Ashish Pandey</a
+          >| 05 JUL 2019
+        </p>
+        <p class="description">
+          I recently had the opportunity to lead the initiative to organize the
+          first Cloud meetup for edYoda. Here, I recount my experience in
+          organizing the very first in the series of meetups planned by the team
+          here. The focus area of the meetups is emerging technologies including
+          Big Data, Cloud, Machine Learning, Blockchain, IOT, and others
+        </p>
+      </div>
+
+      <div class="item">
+        <img
+          class="image"
+          alt="Mobile"
+          src="https://edyoda.s3.amazonaws.com/media/blog-images/pitanjal-industry-4-image-1.jpg"
+        />
+        <h2 class="title">Industry 4.0 - The Propects &...</h2>
+        <p class="date">
+          <a class="Author" style="text-decoration: none" href="#"
+            >Pitanjal Dutta</a
+          >| 05 JUL 2019
+        </p>
+        <p class="description">
+          Did you ever dream a world where computers are connected and will
+          communicate with one another to ultimately make decisions without
+          human involvement?.
+        </p>
+      </div>
+
+      <div class="item">
+        <img
+          class="image"
+          alt="Mobile"
+          src="https://edyoda.s3.amazonaws.com/media/blog-images/EdYoda_Admission_Test_Image_small.png"
+        />
+        <h2 class="title">Your Guide to EDYoda Admissio...</h2>
+        <p class="date">
+          <a class="Author" style="text-decoration: none" href="#"
+            >Pitanjal Dutta</a
+          >| 05 JUL 2019
+        </p>
+        <p class="description">
+          All about EdYoda admissions test and how to avail the scholarships up
+          to INR 2,50,000 All about EdYoda admissions test and how to avail the
+          scholarships up to INR 2,50,000
+        </p>
+      </div>
+    </div>
+    <!-- FOOTER -->
+
+    <footer class="footer-collumn">
+      <div class="footer-heading">
+        <h1 class="head">EDYODA</h1>
+        <p><a class="footer-content">Abaout Us</a></p>
+        <p><a class="footer-content">Careers</a></p>
+        <p><a class="footer-content">Contact Us</a></p>
+        <p><a class="footer-content">Terms of Use</a></p>
+        <p><a class="footer-content">Privacy Policy</a></p>
+      </div>
+
+      <div class="footer-heading">
+        <h1 class="head">RESOURCES</h1>
+        <p><a class="footer-content">learning Paths</a></p>
+        <p><a class="footer-content">Careers</a></p>
+        <p><a class="footer-content">Learning Video</a></p>
+        <p><a class="footer-content">Educator</a></p>
+        <p><a class="footer-content">EdYoda Stories</a></p>
+        <p><a class="footer-content">Universitiy</a></p>
+      </div>
+
+      <div class="footer-heading">
+        <h1 class="head">EDYODA</h1>
+        <p><a class="footer-content">Train Your Empolyees</a></p>
+        <h1 class="head">QUICK LINKS</h1>
+        <p><a class="footer-content">Learn And Earn</a></p>
+        <p><a class="footer-content">Become a Learning-Enbler</a></p>
+        <p><a class="footer-content">Tips For Learning-Enbler</a></p>
+        <p><a class="footer-content">Request New Topic</a></p>
+      </div>
+
+      <div class="footer-heading">
+        <h1 class="head">CONNECT</h1>
+        <p>
+          <a class="footer-content"
+            >2nd Floor #188, Survey No. - 123/1, Incubes Building Next to
+            McDonalds, ITPL Main Rd, Brookefield, Bengaluru, Karnataka-560037,
+            India</a
+          >
+        </p>
+
+        <a href="#">
+          <img
+            class="icon"
+            src="https://www.edyoda.com/static/media/email-white.e7d51381.svg"
+        /></a>
+        <a href="#">
+          <img
+            class="icon"
+            src="https://www.edyoda.com/static/media/twitter-white-icon.ea27ab22.svg"
+        /></a>
+        <a href="#">
+          <img
+            class="icon"
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAqCAYAAAC+5wuXAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAMlJREFUeNpi/P//PwMewAzEPkDsBcRWQKwIxNxYVYIMwoG1gPjCfyIBCw6XqAPxQSAWYSASMGERYwTiBaQYgssgWyC2YCARYDMolIEMgM0gc3IMwhbYSgT0XATiTiB+AsTf4AGLJR39AmJWPAZpAvENjBjCYtB/Ai4CJdJ/xIQRIfCP2MBmoFas4QPf8MWaCwkG/celHhTY/6ngs/fUCqMX1DLoGbUMej6MvcYCLRGJzWsfgVhgUGWRUYNGDRo1aNSgUYNIBgABBgDTamTg3XAChAAAAABJRU5ErkJggg=="
+        /></a>
+        <a href="#">
+          <img
+            class="icon"
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAMAAAD04JH5AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAACE1BMVEUAAAD//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f3//f0AAACS7nrlAAAAr3RSTlMAARIiEydtsub757RvKUO+wEIauRXp4zb68i0q7+AWAs+oX/4z4bM3+Q2FVb+R2LDxzvXV3b3EpJJxRyMH8NN7VgrJTP3zd4JaTtoUifTiamucBiU7UVsyGwwdL0BKIQtUjsj435dQJGAOaXkxEJ2D97w8sURn/GK7gZumBLp6Qbjlt262tQPGOJ6KhqDRD+oZra+WkK6HzKwomaua9o2qgJ+pOcPkp9KlfaNwoqER3P6g3gAAAAFiS0dEAIgFHUgAAAAJcEhZcwAADdcAAA3XAUIom3gAAAAHdElNRQfiCwQRLRRI/vG6AAADvElEQVR42u3a+TsUYQAH8HfLteQuqWRJISo3hRK2U22HDhRJCB1CETolXZJSoUv3Xe+/WPJsz66d9zvzjnnfeR6735/fd76fPWfmnZcQX1xjWbDQz2JWuX9AYJCVUmoNDlkUKr8+LJy6JiJSbn2Ue/10ohfLfPlLqGdilkrrj4ylSlm2XFL/ijiqnJXxUvptCZSVRCmAVcx+mrRaQr9lDRtAkyUAUkA/TV0rHpCGADRdPGAdBKwXD9gAARniAZkQkCUekA0BOeIBuRCQJx6QDwEF4gEbIWCTeEAhBBSJBxRvBv1bxPcTUgIAW2UASoOY/WVyrpDL7Yz+bbIuibYr99vLJfUTsiNJoT97p7R+QnZ5/hR2y3r/Z1KxZ69bvWNfsdT+v4nfn+w8LzkOpB+UXf8vxZWHDh8pPFplSrkvvvjii5BU1xw7XptSd8KM7qj6kw2n/p9YG8uampn3uadb2Jl1Sihkj3RbVWtty/I8vcdGnDmrCGgB14Tn3IeCG1mXm8i688y7rYbIuQHCNQBK2y+AA9KOlLkA8tQBnQ6qki5/kYBm+PJnknlRN6BDDXCpW72fUmuPXsBlFUCvlvrppFlEAGx9Wvsp7b+iC3AVAq5p76e0XRcgGgE6NX3+ztiv6wHcAAC/GJ5+Sm9WGAvoCuHrpzRQB2CAPTKOcucWP2CQvwUks5UbcNtQgHMByjxA4xAvgPuLppJ6XkCywYA7ZgPoXU5AoNGAe5yALm2HdQze7wl4MPxQfWQuJyBDQ3tC7YhzeGjvI7XRo0YDgntsrhPiH6uMr+cDPFHrH6smsxKAJzzlAzxT6e8jnnkOZ4zzAVTe0IkhBYAFfnO7qw0ERCiv7FVa0aQwLsAEfDGTRDkv0Kw2LsBLdKhXjH5ShGaVGAZ4HcUCEPSP9IYLMAWGjjH7yVsw7R0X4D0YCp4yfwDTurgAiWDoKBtQBaZ9NArwid1PhuzseTlcgM/skV8AgLCfStFgLkA/e2Q+Aoyz56UaBRhAAPRvzAX4yh4JNxo0GQUo0An4ZhTgu07Aj3kD+Gk24JfZgGEfwGyA6d8B038Fpv8PmA7Qey4wDKD3bGgYAFwPyAGASzI5AHBR6iUAcGMiBzBlNgDcnMoBgPUBOQCwQuIlALBKJgcA1gnlADLMBoCbTDkAsFzvJQDwxEQOADy0kgMAj+3kAMCTUzkA8OzYSwBo/4AUANxBIQOA95BIAKht4xEOUN3INO8BGjaziQWEmw3QtqGRFzAyyY7N/UA17JFwS/5vUEG8Pn8AAeaBBm01AhgAAAAldEVYdGRhdGU6Y3JlYXRlADIwMTgtMTEtMDRUMTc6NDU6MjArMDE6MDDpm7GmAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDE4LTExLTA0VDE3OjQ1OjIwKzAxOjAwmMYJGgAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAAASUVORK5CYII="
+        /></a>
+      </div>
+    </footer>
+  </body>
+</html>
